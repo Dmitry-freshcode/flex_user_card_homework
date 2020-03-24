@@ -71,6 +71,10 @@ body{
     font-style: italic;
 
 }
+.userInfoContainer h4:hover{
+    color: black;
+    transform: translateY(-2px);
+}
 .userInfoContainer > h3{
     margin-top: 20px;
     font-size: 14px;
@@ -90,7 +94,7 @@ footer img{
     width: 35px;
     height: 35px;
 }
-footer img:hover{
+footer a:hover{
     transform: translateY(-2px);
 }
 .contact + .contact{
